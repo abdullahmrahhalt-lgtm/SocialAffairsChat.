@@ -1,0 +1,11 @@
+SocialAffairsChat
+================
+
+Android project prepared for cloud Gradle builds.
+
+Project root: the folder containing settings.gradle and build.gradle.
+Expected APK task: assembleDebug
+APK output: app/build/outputs/apk/debug/
+
+Note: the project uses a Gradle wrapper configuration pointing to Gradle 8.11.1.
+A cloud builder that bootstraps Gradle may generate/use its own wrapper JAR.
